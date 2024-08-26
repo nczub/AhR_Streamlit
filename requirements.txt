@@ -1,11 +1,11 @@
-rdkit-pypi
+rdkit
 scikit-learn
 mljar-supervised
 numpy
 pandas
 seaborn
 matplotlib
-mordred==1.2.0
-streamlit-ketcher==0.0.1
-streamlit==1.37.0
+mordred
+streamlit-ketcher
+streamlit
 scipy
