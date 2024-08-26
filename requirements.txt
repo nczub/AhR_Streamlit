@@ -1,4 +1,4 @@
-pip==24.0
+pip==22.3
 rdkit==2023.03.2
 scikit-learn
 mljar-supervised
