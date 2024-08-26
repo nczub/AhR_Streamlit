@@ -1,5 +1,4 @@
-pip install --upgrade pip
-rdkit-pypi==2022.9.5
+rdkit-pypi
 scikit-learn
 mljar-supervised
 numpy
