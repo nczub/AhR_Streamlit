@@ -1,5 +1,5 @@
 pip==22.3
-rdkit==2023.03.2
+rdkit==2023.3.2
 scikit-learn
 mljar-supervised
 numpy
