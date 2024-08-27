@@ -10,3 +10,4 @@ streamlit-option-menu==0.3.6
 streamlit-ketcher==0.0.1
 streamlit==1.37.0
 scipy
+setuptools
