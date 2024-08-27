@@ -1,5 +1,5 @@
 streamlit==1.37.0
-rdkit==2023.03.2
+rdkit==2021.09.4
 scikit-learn
 mljar-supervised
 numpy
