@@ -10,4 +10,4 @@ streamlit-ketcher==0.0.1
 streamlit==1.37.0
 scipy
 setuptools
-mljar-supervised==1.1.0
+mljar-supervised==1.0.0
