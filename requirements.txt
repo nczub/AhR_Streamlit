@@ -1,3 +1,4 @@
+pip==20.2.4
 python==3.8
 setuptools
 rdkit
