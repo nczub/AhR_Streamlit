@@ -1,4 +1,4 @@
-rdkit==2022.09.4
+rdkit
 scikit-learn
 mljar-supervised
 numpy
