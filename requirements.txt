@@ -1,7 +1,7 @@
 setuptools
 rdkit
 scikit-learn
-mljar-supervised==1.1.0
+mljar-supervised==1.0.0
 numpy
 pandas
 seaborn
