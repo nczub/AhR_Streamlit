@@ -1,3 +1,4 @@
+python==3.8
 setuptools
 rdkit
 scikit-learn==0.24.2
