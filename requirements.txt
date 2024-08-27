@@ -1,6 +1,6 @@
 setuptools
 rdkit
-scikit-learn==1.2.2
+scikit-learn==1.2.3
 mljar-supervised==1.1.1
 numpy==1.26.4
 pandas
