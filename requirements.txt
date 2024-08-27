@@ -1,12 +1,12 @@
 setuptools
 rdkit
-scikit-learn
+scikit-learn==1.2.2
 mljar-supervised==1.0.0
 numpy==1.26.4
 pandas
 seaborn
 matplotlib
 mordred==1.2.0
-streamlit==1.37.0
+streamlit==1.36.0
 streamlit-ketcher==0.0.1
-scipy==1.11.4
+scipy==1.10.1
