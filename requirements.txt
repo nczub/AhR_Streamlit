@@ -9,4 +9,4 @@ matplotlib
 mordred==1.2.0
 streamlit==1.36.0
 streamlit-ketcher==0.0.1
-scipy
+scipy==1.11.4
