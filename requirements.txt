@@ -1,3 +1,4 @@
+python==3.4
 streamlit==1.37.0
 rdkit==2022.09.4
 scikit-learn
