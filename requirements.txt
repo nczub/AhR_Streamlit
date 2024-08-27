@@ -8,6 +8,6 @@ mordred==1.2.0
 streamlit-option-menu==0.3.6
 streamlit-ketcher==0.0.1
 streamlit==1.37.0
-setuptools
 mljar-supervised==1.0.0
 scipy==1.6.1
+setuptools==68.0.0
