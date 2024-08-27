@@ -1,6 +1,6 @@
 rdkit
 scikit-learn
-mljar-supervised
+mljar-supervised==1.1.0
 numpy
 pandas
 seaborn
