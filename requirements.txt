@@ -1,4 +1,4 @@
-setuptools
+setuptools<60.0
 rdkit
 numpy==1.23.0
 scikit-learn==0.24.2
