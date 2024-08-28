@@ -1,6 +1,6 @@
 setuptools
-numpy==1.23.0 --install-option="--no-deps"
-scikit-learn==0.24.2 --install-option="--no-deps"
+numpy==1.23.0
+scikit-learn==0.24.2
 rdkit
 mljar-supervised
 pandas
