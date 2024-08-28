@@ -1,3 +1,4 @@
+setuptools<60.0
 numpy==1.23.0
 scikit-learn==0.24.2
 rdkit
@@ -10,4 +11,3 @@ streamlit==1.35.0
 streamlit-ketcher
 scipy
 psutil
-setuptools<60.0
