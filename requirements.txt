@@ -10,4 +10,4 @@ scipy
 psutil
 numpy
 scikit-learn
-mljar-supervised==0.11.3
+mljar-supervised==0.11.5
