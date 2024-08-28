@@ -10,4 +10,4 @@ streamlit
 streamlit-ketcher
 scipy
 psutil
-setuptools
+setuptools<60.0
