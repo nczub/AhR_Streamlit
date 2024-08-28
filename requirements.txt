@@ -1,0 +1,13 @@
+setuptools
+numpy
+scikit-learn
+rdkit
+mljar-supervised
+pandas
+seaborn
+matplotlib
+mordred
+streamlit
+streamlit-ketcher
+scipy
+psutil
