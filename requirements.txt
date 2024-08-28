@@ -1,13 +1,13 @@
-setuptools<60.0
-numpy==1.23.0
-scikit-learn==0.24.2
+setuptools
+numpy
+scikit-learn
 rdkit
 mljar-supervised
 pandas
 seaborn
 matplotlib
 mordred
-streamlit==1.35.0
+streamlit
 streamlit-ketcher
 scipy
 psutil
