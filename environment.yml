@@ -5,13 +5,13 @@ channels:
 dependencies:
   - python=3.10
   - setuptools
-  - rdkit=2023.03.1
+  - rdkit-pypi
   - scikit-learn=0.24.2
   - mljar-supervised=1.1.6
   - numpy=1.23.0
-  - pandas=2.0.3
-  - seaborn=0.12.2
-  - matplotlib=3.7.2
+  - pandas
+  - seaborn
+  - matplotlib
   - mordred=1.2.0
   - streamlit=1.36.0
   - streamlit-ketcher=0.0.1
