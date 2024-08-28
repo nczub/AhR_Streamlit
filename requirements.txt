@@ -1,5 +1,5 @@
 setuptools
-numpy==1.23.0
+numpy
 scikit-learn==0.24.2
 rdkit
 mljar-supervised
