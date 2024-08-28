@@ -1,6 +1,6 @@
 rdkit
-numpy==1.23.0 --no-deps
-scikit-learn==0.24.2 --no-deps
+numpy==1.23.0--no-deps
+scikit-learn==0.24.2--no-deps
 mljar-supervised
 pandas
 seaborn
