@@ -1,6 +1,5 @@
+python==3.8
 setuptools
-numpy
-scikit-learn
 rdkit
 mljar-supervised
 pandas
@@ -11,3 +10,5 @@ streamlit
 streamlit-ketcher
 scipy
 psutil
+numpy==1.23.0
+scikit-learn==0.24.2
