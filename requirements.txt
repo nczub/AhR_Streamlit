@@ -9,3 +9,4 @@ mordred
 streamlit
 streamlit-ketcher
 scipy
+setuptools
