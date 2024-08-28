@@ -140,18 +140,13 @@ if smiles_input:
             
             with col2:
                 with st.spinner('Calculation in progress'):
-                    # prediction = classification_model.predict(descriptors_value_df)
-                    # st.markdown(f'<div style="{success_style}">Done!</div>', unsafe_allow_html=True)
-                    # if prediction == 0:
-                    #     prediction_class = "inactive"
-                    # else:
-                    #     prediction_class = "active"
-                    prediction = classification_model.predict_proba(descriptors_value_df)
-                    if prediction[0][1] >= 0.775:
-                        st.write("Good intestinal permeability")
+                    prediction = classification_model.predict(descriptors_value_df)
+                    st.markdown(f'<div style="{success_style}">Done!</div>', unsafe_allow_html=True)
+                    if prediction == 0:
+                        prediction_class = "inactive"
                     else:
-                        st.write("Bad intestinal permeability")
-                    # st.write("Tested molecule towards AhR is ", f'<span style="color: #465e4b;">{prediction_class}</span>', unsafe_allow_html=True)
+                        prediction_class = "active"
+                    st.write("Tested molecule towards AhR is ", f'<span style="color: #465e4b;">{prediction_class}</span>', unsafe_allow_html=True)
                     list_of_important_descriptors = ['BCUTc-1l', 'MAXdO', 'MAXaaaC', 'PEOE_VSA9', 'SMR_VSA3', 'SssCH2', 
                                  'AATS4i', 'SpAbs_DzZ', 'AATS6dv', 'VSA_EState5']
                     min_values = {'BCUTc-1l': -0.7373620145398293, 'MAXdO': 9.099537037037038, 'MAXaaaC': -0.1340347251287001,
