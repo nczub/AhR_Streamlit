@@ -8,14 +8,6 @@ from supervised.automl import AutoML
 from streamlit_ketcher import st_ketcher
 import matplotlib.pyplot as plt
 
-from sklearn.exceptions import InconsistentVersionWarning
-warnings.simplefilter("error", InconsistentVersionWarning)
-
-try:
-   est = pickle.loads("model_from_prevision_version.pickle")
-except InconsistentVersionWarning as w:
-   print(w.original_sklearn_version)
-
 
 st.markdown("""
 <style>
