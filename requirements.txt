@@ -1,6 +1,6 @@
-pip==23.1
-rdkit
+pip==23.0.1
 numpy==1.23.0
+rdkit
 scikit-learn==0.24.2
 mljar-supervised==1.1.1
 pandas
@@ -11,4 +11,4 @@ streamlit==1.36.0
 streamlit-ketcher==0.0.1
 scipy==1.11.4
 psutil
-setuptools<60.0
+setuptools>=60.0
