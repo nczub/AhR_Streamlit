@@ -6,7 +6,7 @@ pandas
 seaborn
 matplotlib
 mordred
-streamlit
+streamlit==1.35.0
 streamlit-ketcher
 scipy
 psutil
