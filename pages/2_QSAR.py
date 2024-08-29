@@ -85,7 +85,7 @@ st.markdown(
 
 #loading models
 #classification - threshold 1000 nM EC50
-classification_model_path = 'mljar_AutoML_Compete_2024_08_14_19_48_22' 
+classification_model_path = 'mljar_AutoML_Compete_2024_08_29_15_01_51' 
 classification_model = AutoML(classification_model_path)
 calc = Calculator(descriptors, ignore_3D=True)
 
