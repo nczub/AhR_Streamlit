@@ -88,8 +88,6 @@ st.markdown(
 #loading models
 #classification - threshold 1000 nM EC50
 classification_model_path = 'mljar_AutoML_Compete_2024_08_29_23_38_44_1000' 
-#classification - threshold 10000 nM EC50
-# classification_model_path = 'mljar_AutoML_Compete_2024_08_29_21_37_05_10000'
 classification_model = AutoML(classification_model_path)
 calc = Calculator(descriptors, ignore_3D=True)
 
@@ -136,13 +134,6 @@ if uploaded_file is not None:
     descriptors_df = descriptors_df.fillna(0)
     descriptors_df['TEST_TYPE'] = test_type_value
     descriptors_df['CELL_LINE'] = cell_line_value
-    # classification 10 000
- #    list_of_important_descriptors = ['nAromBond', 'nBondsA', 'AATS5i', 'JGT10', 'ATS8v', 'JGI5', 'n6aHRing', 'MDEC-22', 'n6HRing', 'SaaN']
- #    min_values = {'nAromBond': 6,  'nBondsA': 6,  'AATS5i': 148.07980032817522,  'JGT10': 0.2702265744668118,  'ATS8v': 164.0272612509336,
- # 'JGI5': 0.0081609195402298,  'n6aHRing': 0,  'MDEC-22': 0.0125972232812161,  'n6HRing': 0,  'SaaN': 0.0}
- #    max_values = {'nAromBond': 34,  'nBondsA': 34, 'AATS5i': 178.01118267553622, 'JGT10': 0.6892739481748937, 'ATS8v': 50676.31823334689,
- # 'JGI5': 0.0446047008547008, 'n6aHRing': 4, 'MDEC-22': 26.921795683482664, 'n6HRing': 5, 'SaaN': 18.656281573834644}
-    # classification 1000
     list_of_important_descriptors = ['Xch-5dv', 'AATSC1d', 'AATSC0p', 'MATS6v', 'AMID_X', 'PEOE_VSA10', 'GATS3s', 'MPC9', 'ATSC0c', 'AMID_O']
     min_values = {'Xch-5dv': 0.0, 'AATSC1d': -0.1296285890880486, 'AATSC0p': 0.19011554804521, 'MATS6v': -0.3380648814398859,
  'AMID_X': 0.0, 'PEOE_VSA10': 0.0, 'GATS3s': 0.3614357159689514, 'MPC9': 0, 'ATSC0c': 0.0778819250415749, 'AMID_O': 0.0}
