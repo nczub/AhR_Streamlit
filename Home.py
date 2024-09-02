@@ -66,7 +66,7 @@ footer_style = """
     width: 100%;
     color: #525354;
     font-style: italic;
-    text-align: right;
+    text-align: center;
     padding: 10px;
     font-size: 20px;
 """
