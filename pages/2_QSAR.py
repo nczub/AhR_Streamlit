@@ -85,7 +85,10 @@ st.markdown(
 
 #loading models
 #classification - threshold 1000 nM EC50
-classification_model_path = 'mljar_AutoML_Compete_2024_08_29_15_01_51' 
+# classification_model_path = 'mljar_AutoML_Compete_2024_08_29_23_38_44_1000' 
+#classification - threshold 10000 nM EC50
+# classification_model_path = 'mljar_AutoML_Compete_2024_08_29_21_37_05_10000' 
+
 classification_model = AutoML(classification_model_path)
 calc = Calculator(descriptors, ignore_3D=True)
 
@@ -146,15 +149,12 @@ if smiles_input:
                     else:
                         prediction_class = "active"
                     st.write("Tested molecule towards AhR is ", f'<span style="color: #465e4b;">{prediction_class}</span>', unsafe_allow_html=True)
-                    list_of_important_descriptors = ['BCUTc-1l', 'MAXdO', 'MAXaaaC', 'PEOE_VSA9', 'SMR_VSA3', 'SssCH2', 
-                                 'AATS4i', 'SpAbs_DzZ', 'AATS6dv', 'VSA_EState5']
-                    min_values = {'BCUTc-1l': -0.7373620145398293, 'MAXdO': 9.099537037037038, 'MAXaaaC': -0.1340347251287001,
-                        'PEOE_VSA9': 0.0, 'SMR_VSA3': 0.0, 'SssCH2': -0.4661989795918362, 'AATS4i': 147.56632501478904,
-                        'SpAbs_DzZ': 42.05895519992669, 'AATS6dv': 0.1538461538461538, 'VSA_EState5': -7.181078813682171}
-                    max_values = {'BCUTc-1l': -0.292146392415571, 'MAXdO': 14.629783178882205, 'MAXaaaC': 1.5381250000000002,
-                        'PEOE_VSA9': 78.6625871223764, 'SMR_VSA3': 39.8909626482546, 'SssCH2': 23.225582666887828,
-                        'AATS4i': 175.1107976137481, 'SpAbs_DzZ': 1265.278990098867, 'AATS6dv': 7.298507462686567,
-                        'VSA_EState5': 8.521368790538302}
+                    # classification 10 000
+                    list_of_important_descriptors = ['nAromBond', 'nBondsA', 'AATS5i', 'JGT10', 'ATS8v', 'JGI5', 'n6aHRing', 'MDEC-22', 'n6HRing', 'SaaN']
+                    min_values ={'nAromBond': 6,  'nBondsA': 6,  'AATS5i': 148.07980032817522,  'JGT10': 0.2702265744668118,  'ATS8v': 164.0272612509336,
+ 'JGI5': 0.0081609195402298,  'n6aHRing': 0,  'MDEC-22': 0.0125972232812161,  'n6HRing': 0,  'SaaN': 0.0}
+                    max_values = {'nAromBond': 34,  'nBondsA': 34, 'AATS5i': 178.01118267553622, 'JGT10': 0.6892739481748937, 'ATS8v': 50676.31823334689,
+ 'JGI5': 0.0446047008547008, 'n6aHRing': 4, 'MDEC-22': 26.921795683482664, 'n6HRing': 5, 'SaaN': 18.656281573834644}
                     normalized_descriptors_df = (descriptors_value_df - pd.Series(min_values)) / (pd.Series(max_values) - pd.Series(min_values))
                     values_1 = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
                     values_2 = normalized_descriptors_df[list_of_important_descriptors].max().to_list()
@@ -269,16 +269,3 @@ if agree_draw_smiles:
     smile_code = st_ketcher()
     st.markdown(f"SMILES: {smile_code}")
         
-        #st.write("---")
-        #st.subheader("5-HT1A in pharmacology")
-        #st.write("5-HT1A receptor is the best known serotonergic receptor and is abundantly present in cortical and limbic areas.")
-        #st.write("Agonists of the 5-HT1A receptor induce a variety of behavioral and physiological effects, including altered motor function, body temperature, and neuroendocrine activity. Furthermore, there is a wealth of preclinical and clinical evidence suggesting that 5-HT1A receptor agonists possess antidepressant and anxiolytic properties, and they impact various cognitive domains relevant to schizophrenia symptoms. The numerous and diverse behavioral effects of 5-HT1A receptor agonists likely reflect the actions of these receptors in multiple forebrain and midbrain regions. For instance, the activation of 5-HT1A autoreceptors has been associated with anxiolytic effects, while the activation of postsynaptic 5-HT1A receptors is linked to antidepressant effects.")
-        #col1, col2 = st.columns(2)
-        #with col1:
-            #st.write("In the 1990s the 5-HT1A agonist buspirone was approved for clinical use as an anxiolytic, and structurally similar compounds such as gepirone and tandospirone demonstrated efficacy as antidepressants in clinical trials. Novel antidepressant medications, like vilazodone and vortioxetine, which combine high affinity for the 5-HT transporter and the 5-HT1A receptor (as well as several other 5-HT receptors in the case of vortioxetine), have been developed.")
-        #with col2:
-            #image = Image.open('images_app/5-HT1A.png')
-            #st.image(image, width=360)
-        #st.write("Within the 5-HT1A receptor ligands, we can distinguish so-called biased-agonists, which are characterized by their ability to selectively activate specific signaling pathways. It is this unique feature of biased-agonists that allows us to differentiate their effects on the cell compared to traditional agonists.")
-        #st.write("NLX-112 (formerly known as F13640) is considered a potential treatment for Parkinson's disease patients suffering from L-DOPA-induced dyskinesia. NLX-112 is a full agonist but shows preferential activation of ERK signaling and activates 5-HT1A autoreceptors to inhibit the firing of 5-HT cells.")
-        #st.write("Another biased agonist of the 5-HT1A receptor, NLX-101 (F15599), has been reported to preferentially activate postsynaptic 5-HT1A receptors and exhibits antidepressant, pro-cognitive, and neuroprotective properties in animal models.")
