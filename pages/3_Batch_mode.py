@@ -136,15 +136,12 @@ if uploaded_file is not None:
     descriptors_df = descriptors_df.fillna(0)
     descriptors_df['TEST_TYPE'] = test_type_value
     descriptors_df['CELL_LINE'] = cell_line_value
-    list_of_important_descriptors = ['BCUTc-1l', 'MAXdO', 'MAXaaaC', 'PEOE_VSA9', 'SMR_VSA3', 'SssCH2', 
-                                 'AATS4i', 'SpAbs_DzZ', 'AATS6dv', 'VSA_EState5']
-    min_values = {'BCUTc-1l': -0.7373620145398293, 'MAXdO': 9.099537037037038, 'MAXaaaC': -0.1340347251287001,
-                        'PEOE_VSA9': 0.0, 'SMR_VSA3': 0.0, 'SssCH2': -0.4661989795918362, 'AATS4i': 147.56632501478904,
-                        'SpAbs_DzZ': 42.05895519992669, 'AATS6dv': 0.1538461538461538, 'VSA_EState5': -7.181078813682171}
-    max_values = {'BCUTc-1l': -0.292146392415571, 'MAXdO': 14.629783178882205, 'MAXaaaC': 1.5381250000000002,
-                        'PEOE_VSA9': 78.6625871223764, 'SMR_VSA3': 39.8909626482546, 'SssCH2': 23.225582666887828,
-                        'AATS4i': 175.1107976137481, 'SpAbs_DzZ': 1265.278990098867, 'AATS6dv': 7.298507462686567,
-                        'VSA_EState5': 8.521368790538302}
+    # classification 10 000
+    list_of_important_descriptors = ['nAromBond', 'nBondsA', 'AATS5i', 'JGT10', 'ATS8v', 'JGI5', 'n6aHRing', 'MDEC-22', 'n6HRing', 'SaaN']
+    min_values = {'nAromBond': 6,  'nBondsA': 6,  'AATS5i': 148.07980032817522,  'JGT10': 0.2702265744668118,  'ATS8v': 164.0272612509336,
+ 'JGI5': 0.0081609195402298,  'n6aHRing': 0,  'MDEC-22': 0.0125972232812161,  'n6HRing': 0,  'SaaN': 0.0}
+    max_values = {'nAromBond': 34,  'nBondsA': 34, 'AATS5i': 178.01118267553622, 'JGT10': 0.6892739481748937, 'ATS8v': 50676.31823334689,
+ 'JGI5': 0.0446047008547008, 'n6aHRing': 4, 'MDEC-22': 26.921795683482664, 'n6HRing': 5, 'SaaN': 18.656281573834644}
     normalized_descriptors_df = (descriptors_df - pd.Series(min_values)) / (pd.Series(max_values) - pd.Series(min_values))
     values_1 = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
     values_3 = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
