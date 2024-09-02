@@ -74,9 +74,9 @@ footer_style = """
     width: 100%;
     color: #525354;
     font-style: italic;
-    text-align: right;
+    text-align: center;
     padding: 10px;
-    font-size: 20px;
+    font-size: 15px;
 """
 st.markdown(
     f'<div style="{footer_style}">Copyright (C) Natalia Łapińska 2024</div>',
