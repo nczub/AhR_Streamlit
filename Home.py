@@ -80,7 +80,7 @@ st.write('The aryl hydrocarbon receptor (AhR) is part of a family of essential h
 st.write('')
 st.write('---')
 st.subheader("Instruction")
-st.write("With this application - QSAR page, it is possible to obtain information about the activity class of ligands towards the AhR receptor based on EC50 values. All you need is a SMILES of your molecule. An alternative way, you can draw a molecule.")
+st.write("With this application - QSAR page, it is possible to obtain information about the activity class of ligands towards the AhR receptor based on EC50 values. All you need is a SMILES of your molecule. An alternative way, you can draw a molecule. A threshold of active/inactive molecules was set at EC50 = 1000 nM.")
 st.write('')
 st.write('---')
 st.subheader("References")
