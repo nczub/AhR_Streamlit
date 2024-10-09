@@ -90,7 +90,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.title('Aryl hydrogen receptor')
+st.title('Aryl hydrocarbon receptor')
 st.write('The aryl hydrocarbon receptor (AhR) is part of a family of essential helix-loop-helix transcription factors. This receptor is critical in determining host physiology and various pathophysiologies, from inflammation and metabolism to cancer. AhR is a ligand-controlled receptor with complex activation pharmacology depending on the type and amount of ligand present.')
 st.write('')
 st.write('---')
