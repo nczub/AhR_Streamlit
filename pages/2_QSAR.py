@@ -165,7 +165,7 @@ if selected_model == "EC50":
             if molecule:
                 img = Draw.MolToImage(molecule, size=(600, 600))
                 with col1:
-                    st.image(img, caption='Chemical structure', use_column_width=True)
+                    st.image(img, caption='Chemical structure', use_container_width=True)
             else:
                 pass
         except Exception as e:
@@ -323,7 +323,7 @@ if selected_model == "IC50":
             if molecule:
                 img = Draw.MolToImage(molecule, size=(600, 600))
                 with col1:
-                    st.image(img, caption='Chemical structure', use_column_width=True)
+                    st.image(img, caption='Chemical structure', use_container_width=True)
             else:
                 pass
         except Exception as e:
