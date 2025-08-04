@@ -1,0 +1,623 @@
+{
+    "new_features": [
+        {
+            "feature1": "Morgan_1697",
+            "feature2": "Morgan_1261",
+            "operation": "sum",
+            "score": 0.5105283693
+        },
+        {
+            "feature1": "Morgan_1697",
+            "feature2": "Morgan_1666",
+            "operation": "sum",
+            "score": 0.5105283693
+        },
+        {
+            "feature1": "Morgan_1666",
+            "feature2": "Morgan_1697",
+            "operation": "diff",
+            "score": 0.5132919995
+        },
+        {
+            "feature1": "Morgan_1261",
+            "feature2": "Morgan_1697",
+            "operation": "diff",
+            "score": 0.514636695
+        },
+        {
+            "feature1": "Morgan_1454",
+            "feature2": "Morgan_1697",
+            "operation": "diff",
+            "score": 0.5154115978
+        },
+        {
+            "feature1": "Morgan_1697",
+            "feature2": "Morgan_384",
+            "operation": "sum",
+            "score": 0.5163273864
+        },
+        {
+            "feature1": "Morgan_1454",
+            "feature2": "Morgan_1608",
+            "operation": "diff",
+            "score": 0.5164279408
+        },
+        {
+            "feature1": "Morgan_384",
+            "feature2": "Morgan_1697",
+            "operation": "diff",
+            "score": 0.5168120141
+        },
+        {
+            "feature1": "Morgan_1454",
+            "feature2": "Morgan_1725",
+            "operation": "diff",
+            "score": 0.5170818469
+        },
+        {
+            "feature1": "Morgan_1454",
+            "feature2": "Morgan_1654",
+            "operation": "diff",
+            "score": 0.5179842323
+        },
+        {
+            "feature1": "Morgan_1697",
+            "feature2": "Morgan_810",
+            "operation": "sum",
+            "score": 0.5181938566
+        },
+        {
+            "feature1": "Morgan_1654",
+            "feature2": "Morgan_1418",
+            "operation": "sum",
+            "score": 0.5195463902
+        },
+        {
+            "feature1": "Morgan_576",
+            "feature2": "Morgan_1418",
+            "operation": "diff",
+            "score": 0.5195570496
+        },
+        {
+            "feature1": "Morgan_1418",
+            "feature2": "Morgan_1654",
+            "operation": "diff",
+            "score": 0.5199112186
+        },
+        {
+            "feature1": "Morgan_810",
+            "feature2": "Morgan_1697",
+            "operation": "diff",
+            "score": 0.5199241881
+        },
+        {
+            "feature1": "Morgan_1418",
+            "feature2": "Morgan_576",
+            "operation": "sum",
+            "score": 0.5200255177
+        },
+        {
+            "feature1": "Morgan_1725",
+            "feature2": "Morgan_1454",
+            "operation": "sum",
+            "score": 0.5213352349
+        },
+        {
+            "feature1": "Morgan_1697",
+            "feature2": "Morgan_1454",
+            "operation": "sum",
+            "score": 0.5215299301
+        },
+        {
+            "feature1": "Morgan_1654",
+            "feature2": "Morgan_1666",
+            "operation": "diff",
+            "score": 0.5217180892
+        },
+        {
+            "feature1": "Morgan_576",
+            "feature2": "Morgan_1666",
+            "operation": "diff",
+            "score": 0.5217420117
+        },
+        {
+            "feature1": "Morgan_1725",
+            "feature2": "Morgan_1418",
+            "operation": "sum",
+            "score": 0.5218922441
+        },
+        {
+            "feature1": "Morgan_1608",
+            "feature2": "Morgan_1454",
+            "operation": "sum",
+            "score": 0.5220174215
+        },
+        {
+            "feature1": "Morgan_1697",
+            "feature2": "Morgan_1574",
+            "operation": "sum",
+            "score": 0.5224025506
+        },
+        {
+            "feature1": "Morgan_1666",
+            "feature2": "Morgan_1654",
+            "operation": "sum",
+            "score": 0.5226409557
+        },
+        {
+            "feature1": "Morgan_576",
+            "feature2": "Morgan_1261",
+            "operation": "diff",
+            "score": 0.5229161057
+        },
+        {
+            "feature1": "Morgan_1261",
+            "feature2": "Morgan_576",
+            "operation": "sum",
+            "score": 0.5234763835
+        },
+        {
+            "feature1": "Morgan_1666",
+            "feature2": "Morgan_576",
+            "operation": "sum",
+            "score": 0.5234763835
+        },
+        {
+            "feature1": "Morgan_1784",
+            "feature2": "Morgan_1697",
+            "operation": "sum",
+            "score": 0.5235302151
+        },
+        {
+            "feature1": "Morgan_1418",
+            "feature2": "Morgan_1725",
+            "operation": "diff",
+            "score": 0.5237839669
+        },
+        {
+            "feature1": "Morgan_1684",
+            "feature2": "Morgan_1697",
+            "operation": "diff",
+            "score": 0.5239324234
+        },
+        {
+            "feature1": "Morgan_1918",
+            "feature2": "Morgan_1454",
+            "operation": "sum",
+            "score": 0.5244074248
+        },
+        {
+            "feature1": "Morgan_1454",
+            "feature2": "Morgan_1918",
+            "operation": "diff",
+            "score": 0.5245754903
+        },
+        {
+            "feature1": "Morgan_1725",
+            "feature2": "Morgan_1666",
+            "operation": "sum",
+            "score": 0.5246369074
+        },
+        {
+            "feature1": "Morgan_1666",
+            "feature2": "Morgan_1725",
+            "operation": "diff",
+            "score": 0.5254536232
+        },
+        {
+            "feature1": "Morgan_1244",
+            "feature2": "Morgan_1454",
+            "operation": "diff",
+            "score": 0.5255857363
+        },
+        {
+            "feature1": "Morgan_1454",
+            "feature2": "Morgan_1244",
+            "operation": "sum",
+            "score": 0.525622877
+        },
+        {
+            "feature1": "Morgan_384",
+            "feature2": "Morgan_576",
+            "operation": "diff",
+            "score": 0.5257428514
+        },
+        {
+            "feature1": "Morgan_384",
+            "feature2": "Morgan_1654",
+            "operation": "diff",
+            "score": 0.526030464
+        },
+        {
+            "feature1": "Morgan_1044",
+            "feature2": "Morgan_1697",
+            "operation": "diff",
+            "score": 0.5264109818
+        },
+        {
+            "feature1": "Morgan_576",
+            "feature2": "Morgan_810",
+            "operation": "diff",
+            "score": 0.5267596325
+        },
+        {
+            "feature1": "Morgan_810",
+            "feature2": "Morgan_1654",
+            "operation": "diff",
+            "score": 0.5268485735
+        },
+        {
+            "feature1": "Morgan_487",
+            "feature2": "Morgan_1454",
+            "operation": "diff",
+            "score": 0.5271596165
+        },
+        {
+            "feature1": "Morgan_1454",
+            "feature2": "Morgan_1508",
+            "operation": "diff",
+            "score": 0.5271780461
+        },
+        {
+            "feature1": "Morgan_1454",
+            "feature2": "Morgan_487",
+            "operation": "sum",
+            "score": 0.5271808723
+        },
+        {
+            "feature1": "Morgan_1454",
+            "feature2": "Morgan_651",
+            "operation": "sum",
+            "score": 0.527265023
+        },
+        {
+            "feature1": "Morgan_1608",
+            "feature2": "Morgan_384",
+            "operation": "sum",
+            "score": 0.5274077607
+        },
+        {
+            "feature1": "Morgan_384",
+            "feature2": "Morgan_1608",
+            "operation": "diff",
+            "score": 0.5276936313
+        },
+        {
+            "feature1": "Morgan_1882",
+            "feature2": "Morgan_1418",
+            "operation": "sum",
+            "score": 0.5276951368
+        },
+        {
+            "feature1": "Morgan_1603",
+            "feature2": "Morgan_1666",
+            "operation": "diff",
+            "score": 0.5278264463
+        },
+        {
+            "feature1": "Morgan_1146",
+            "feature2": "Morgan_1697",
+            "operation": "diff",
+            "score": 0.5278577886
+        },
+        {
+            "feature1": "Morgan_1476",
+            "feature2": "Morgan_1418",
+            "operation": "sum",
+            "score": 0.5279529036
+        },
+        {
+            "feature1": "Morgan_1418",
+            "feature2": "Morgan_105",
+            "operation": "sum",
+            "score": 0.5279529036
+        },
+        {
+            "feature1": "Morgan_1418",
+            "feature2": "Morgan_1476",
+            "operation": "diff",
+            "score": 0.5279891937
+        },
+        {
+            "feature1": "Morgan_105",
+            "feature2": "Morgan_1418",
+            "operation": "diff",
+            "score": 0.5279891937
+        },
+        {
+            "feature1": "Morgan_1454",
+            "feature2": "Morgan_91",
+            "operation": "sum",
+            "score": 0.5281136263
+        },
+        {
+            "feature1": "Morgan_981",
+            "feature2": "Morgan_1454",
+            "operation": "diff",
+            "score": 0.5281136263
+        },
+        {
+            "feature1": "Morgan_1697",
+            "feature2": "Morgan_1763",
+            "operation": "diff",
+            "score": 0.5281898975
+        },
+        {
+            "feature1": "Morgan_1418",
+            "feature2": "Morgan_258",
+            "operation": "sum",
+            "score": 0.5282591919
+        },
+        {
+            "feature1": "Morgan_91",
+            "feature2": "Morgan_1454",
+            "operation": "diff",
+            "score": 0.5282632972
+        },
+        {
+            "feature1": "Morgan_1454",
+            "feature2": "Morgan_981",
+            "operation": "sum",
+            "score": 0.5282632972
+        },
+        {
+            "feature1": "Morgan_105",
+            "feature2": "Morgan_1454",
+            "operation": "diff",
+            "score": 0.5285046592
+        },
+        {
+            "feature1": "Morgan_1454",
+            "feature2": "Morgan_1476",
+            "operation": "diff",
+            "score": 0.5285046592
+        },
+        {
+            "feature1": "Morgan_1684",
+            "feature2": "Morgan_1488",
+            "operation": "sum",
+            "score": 0.5285137985
+        },
+        {
+            "feature1": "Morgan_1654",
+            "feature2": "Morgan_384",
+            "operation": "sum",
+            "score": 0.5285231645
+        },
+        {
+            "feature1": "Morgan_709",
+            "feature2": "Morgan_1454",
+            "operation": "diff",
+            "score": 0.5285604996
+        },
+        {
+            "feature1": "Morgan_1375",
+            "feature2": "Morgan_1697",
+            "operation": "diff",
+            "score": 0.5285866515
+        },
+        {
+            "feature1": "Morgan_576",
+            "feature2": "Morgan_384",
+            "operation": "sum",
+            "score": 0.5286687953
+        },
+        {
+            "feature1": "Morgan_651",
+            "feature2": "Morgan_1454",
+            "operation": "diff",
+            "score": 0.5286775915
+        },
+        {
+            "feature1": "Morgan_328",
+            "feature2": "Morgan_1697",
+            "operation": "diff",
+            "score": 0.5286811745
+        },
+        {
+            "feature1": "Morgan_1508",
+            "feature2": "Morgan_1666",
+            "operation": "diff",
+            "score": 0.5287865757
+        },
+        {
+            "feature1": "Morgan_1918",
+            "feature2": "Morgan_1418",
+            "operation": "sum",
+            "score": 0.5288728028
+        },
+        {
+            "feature1": "Morgan_115",
+            "feature2": "Morgan_1882",
+            "operation": "diff",
+            "score": 0.5289606969
+        },
+        {
+            "feature1": "Morgan_1666",
+            "feature2": "Morgan_1603",
+            "operation": "sum",
+            "score": 0.5289929758
+        },
+        {
+            "feature1": "Morgan_1725",
+            "feature2": "Morgan_810",
+            "operation": "sum",
+            "score": 0.5290479418
+        },
+        {
+            "feature1": "Morgan_1654",
+            "feature2": "Morgan_810",
+            "operation": "sum",
+            "score": 0.5293266974
+        },
+        {
+            "feature1": "Morgan_115",
+            "feature2": "Morgan_1654",
+            "operation": "diff",
+            "score": 0.5293927361
+        },
+        {
+            "feature1": "Morgan_1418",
+            "feature2": "Morgan_651",
+            "operation": "sum",
+            "score": 0.5294477389
+        },
+        {
+            "feature1": "Morgan_810",
+            "feature2": "Morgan_576",
+            "operation": "sum",
+            "score": 0.5294594976
+        },
+        {
+            "feature1": "Morgan_1244",
+            "feature2": "Morgan_1418",
+            "operation": "diff",
+            "score": 0.5295163255
+        },
+        {
+            "feature1": "Morgan_651",
+            "feature2": "Morgan_1418",
+            "operation": "diff",
+            "score": 0.5296273926
+        },
+        {
+            "feature1": "Morgan_1418",
+            "feature2": "Morgan_1918",
+            "operation": "diff",
+            "score": 0.5298740417
+        },
+        {
+            "feature1": "Morgan_1417",
+            "feature2": "Morgan_1454",
+            "operation": "diff",
+            "score": 0.5298956526
+        },
+        {
+            "feature1": "Morgan_105",
+            "feature2": "Morgan_1666",
+            "operation": "diff",
+            "score": 0.5299606697
+        },
+        {
+            "feature1": "Morgan_258",
+            "feature2": "Morgan_1418",
+            "operation": "diff",
+            "score": 0.5300531727
+        },
+        {
+            "feature1": "Morgan_1666",
+            "feature2": "Morgan_1508",
+            "operation": "sum",
+            "score": 0.530061669
+        },
+        {
+            "feature1": "Morgan_1784",
+            "feature2": "Morgan_576",
+            "operation": "sum",
+            "score": 0.5300983529
+        },
+        {
+            "feature1": "Morgan_1568",
+            "feature2": "Morgan_1697",
+            "operation": "diff",
+            "score": 0.5302641402
+        },
+        {
+            "feature1": "Morgan_1454",
+            "feature2": "Morgan_709",
+            "operation": "sum",
+            "score": 0.5303398575
+        }
+    ],
+    "new_columns": [
+        "Morgan_1697_sum_Morgan_1261",
+        "Morgan_1697_sum_Morgan_1666",
+        "Morgan_1666_diff_Morgan_1697",
+        "Morgan_1261_diff_Morgan_1697",
+        "Morgan_1454_diff_Morgan_1697",
+        "Morgan_1697_sum_Morgan_384",
+        "Morgan_1454_diff_Morgan_1608",
+        "Morgan_384_diff_Morgan_1697",
+        "Morgan_1454_diff_Morgan_1725",
+        "Morgan_1454_diff_Morgan_1654",
+        "Morgan_1697_sum_Morgan_810",
+        "Morgan_1654_sum_Morgan_1418",
+        "Morgan_576_diff_Morgan_1418",
+        "Morgan_1418_diff_Morgan_1654",
+        "Morgan_810_diff_Morgan_1697",
+        "Morgan_1418_sum_Morgan_576",
+        "Morgan_1725_sum_Morgan_1454",
+        "Morgan_1697_sum_Morgan_1454",
+        "Morgan_1654_diff_Morgan_1666",
+        "Morgan_576_diff_Morgan_1666",
+        "Morgan_1725_sum_Morgan_1418",
+        "Morgan_1608_sum_Morgan_1454",
+        "Morgan_1697_sum_Morgan_1574",
+        "Morgan_1666_sum_Morgan_1654",
+        "Morgan_576_diff_Morgan_1261",
+        "Morgan_1261_sum_Morgan_576",
+        "Morgan_1666_sum_Morgan_576",
+        "Morgan_1784_sum_Morgan_1697",
+        "Morgan_1418_diff_Morgan_1725",
+        "Morgan_1684_diff_Morgan_1697",
+        "Morgan_1918_sum_Morgan_1454",
+        "Morgan_1454_diff_Morgan_1918",
+        "Morgan_1725_sum_Morgan_1666",
+        "Morgan_1666_diff_Morgan_1725",
+        "Morgan_1244_diff_Morgan_1454",
+        "Morgan_1454_sum_Morgan_1244",
+        "Morgan_384_diff_Morgan_576",
+        "Morgan_384_diff_Morgan_1654",
+        "Morgan_1044_diff_Morgan_1697",
+        "Morgan_576_diff_Morgan_810",
+        "Morgan_810_diff_Morgan_1654",
+        "Morgan_487_diff_Morgan_1454",
+        "Morgan_1454_diff_Morgan_1508",
+        "Morgan_1454_sum_Morgan_487",
+        "Morgan_1454_sum_Morgan_651",
+        "Morgan_1608_sum_Morgan_384",
+        "Morgan_384_diff_Morgan_1608",
+        "Morgan_1882_sum_Morgan_1418",
+        "Morgan_1603_diff_Morgan_1666",
+        "Morgan_1146_diff_Morgan_1697",
+        "Morgan_1476_sum_Morgan_1418",
+        "Morgan_1418_sum_Morgan_105",
+        "Morgan_1418_diff_Morgan_1476",
+        "Morgan_105_diff_Morgan_1418",
+        "Morgan_1454_sum_Morgan_91",
+        "Morgan_981_diff_Morgan_1454",
+        "Morgan_1697_diff_Morgan_1763",
+        "Morgan_1418_sum_Morgan_258",
+        "Morgan_91_diff_Morgan_1454",
+        "Morgan_1454_sum_Morgan_981",
+        "Morgan_105_diff_Morgan_1454",
+        "Morgan_1454_diff_Morgan_1476",
+        "Morgan_1684_sum_Morgan_1488",
+        "Morgan_1654_sum_Morgan_384",
+        "Morgan_709_diff_Morgan_1454",
+        "Morgan_1375_diff_Morgan_1697",
+        "Morgan_576_sum_Morgan_384",
+        "Morgan_651_diff_Morgan_1454",
+        "Morgan_328_diff_Morgan_1697",
+        "Morgan_1508_diff_Morgan_1666",
+        "Morgan_1918_sum_Morgan_1418",
+        "Morgan_115_diff_Morgan_1882",
+        "Morgan_1666_sum_Morgan_1603",
+        "Morgan_1725_sum_Morgan_810",
+        "Morgan_1654_sum_Morgan_810",
+        "Morgan_115_diff_Morgan_1654",
+        "Morgan_1418_sum_Morgan_651",
+        "Morgan_810_sum_Morgan_576",
+        "Morgan_1244_diff_Morgan_1418",
+        "Morgan_651_diff_Morgan_1418",
+        "Morgan_1418_diff_Morgan_1918",
+        "Morgan_1417_diff_Morgan_1454",
+        "Morgan_105_diff_Morgan_1666",
+        "Morgan_258_diff_Morgan_1418",
+        "Morgan_1666_sum_Morgan_1508",
+        "Morgan_1784_sum_Morgan_576",
+        "Morgan_1568_diff_Morgan_1697",
+        "Morgan_1454_sum_Morgan_709"
+    ],
+    "ml_task": "binary_classification"
+}

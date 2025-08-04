@@ -1,0 +1,41 @@
+{
+    "name": "Ensemble",
+    "ml_task": "binary_classification",
+    "optimize_metric": "logloss",
+    "selected_models": [
+        {
+            "model": "32_CatBoost_GoldenFeatures",
+            "repeat": 29.0
+        },
+        {
+            "model": "63_NeuralNetwork",
+            "repeat": 13.0
+        },
+        {
+            "model": "67_CatBoost_GoldenFeatures",
+            "repeat": 6.0
+        },
+        {
+            "model": "72_LightGBM",
+            "repeat": 21.0
+        },
+        {
+            "model": "73_LightGBM",
+            "repeat": 24.0
+        },
+        {
+            "model": "91_NeuralNetwork",
+            "repeat": 5.0
+        },
+        {
+            "model": "94_CatBoost_GoldenFeatures",
+            "repeat": 6.0
+        }
+    ],
+    "predictions_fname": "Ensemble/predictions_ensemble.csv",
+    "metric_name": "logloss",
+    "final_loss": 0.3064282646647829,
+    "train_time": 43.021408796310425,
+    "is_stacked": false,
+    "threshold": 0.6814083410437444
+}
