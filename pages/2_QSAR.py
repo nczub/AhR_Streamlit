@@ -123,7 +123,7 @@ st.markdown(
 def clear_text():
     st.session_state["text"] = ""
 
-st.title('Aryl hydrogen receptor QSAR models')
+st.title('Aryl hydrocarbon receptor QSAR models')
 
 selected_model = st.radio("Choose QSAR classification model:", ["EC50", "IC50"])
 
