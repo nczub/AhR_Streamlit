@@ -136,7 +136,7 @@ if selected_model == "EC50":
     calc = Calculator(descriptors, ignore_3D=True)
     
 
-    st.write('**Aryl hydrogen receptor QSAR model - EC50**')
+    st.write('**Aryl hydrocarbon receptor QSAR model - EC50**')
     st.write('Classification model based on threshold 1000 nM')
     st.write("If you want to compare your experimental results with AhR QSAR model, provide test type and cell line. If your experiment was conducted according to different methodology, pick 'not selected'. Also for virtual screening choose 'not selected'.")
     test_type_mapping = {
@@ -313,8 +313,8 @@ if selected_model == "EC50":
 if selected_model == "IC50":
     classification_model_IC50_path = 'classification_model_IC50' 
     classification_model_IC50 = AutoML(classification_model_IC50_path)
-    st.write('**Aryl hydrogen receptor QSAR model - IC50**')
-    st.write("Classification model based on threshold 1000 nM")
+    st.write('**Aryl hydrocarbon receptor QSAR model - IC50**')
+    st.write("Classification model based on threshold 100 nM")
     smiles_input_2 = st.text_input("Input SMILES", key="text")
     col1, col2 = st.columns(2)
     if smiles_input_2:
