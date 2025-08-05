@@ -36,25 +36,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# #background of webpage
-# page_bg_img = f"""
-# <style>
-# [data-testid="stAppViewContainer"] > .main {{
-# background-image: url("https:/raw.githubusercontent.com/nczub/AhR_Streamlit/AhR_background.svg");
-# background-size: cover;
-# background-position: top;
-# background-repeat: repeat;
-# background-attachment: local;
-# backgroud-color: #45745c;
-# }}
-# [data-testid="stHeader"] {{
-# background: rgba(0,0,0,0);
-
-# }}
-# </style>
-# """
-# st.markdown(page_bg_img, unsafe_allow_html=True)
-
 page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
