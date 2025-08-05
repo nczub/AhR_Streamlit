@@ -89,12 +89,12 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.title('Aryl hydrogen receptor')
+st.title('Aryl hydrocarbon receptor')
 st.write('The aryl hydrocarbon receptor (AhR) is part of a family of essential helix-loop-helix transcription factors. This receptor is critical in determining host physiology and various pathophysiologies, from inflammation and metabolism to cancer. AhR is a ligand-controlled receptor with complex activation pharmacology depending on the type and amount of ligand present.')
 st.write('')
 st.write('---')
 st.subheader("Instruction")
-st.write("With this application - QSAR page, it is possible to obtain information about the activity class of ligands towards the AhR receptor based on EC50 and IC50 values. All you need is a SMILES of your molecule. An alternative way, you can draw a molecule. A threshold of active/inactive molecules was set at 1000 nM.")
+st.write("With this application - QSAR page, it is possible to obtain information about the activity class of ligands towards the AhR receptor based on EC50 and IC50 values. All you need is a SMILES of your molecule. An alternative way, you can draw a molecule. A threshold of active/inactive molecules for EC50 was set at 1000 nM, for IC50 100 nM.")
 st.write('')
 st.write('---')
 st.subheader("Publication")
