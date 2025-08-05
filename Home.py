@@ -63,7 +63,7 @@ page_bg_img = f"""
     background-position: top;
     background-repeat: repeat;
     background-attachment: local;
-    background-color: #45745c;
+    # background-color: #45745c;
 }}
 
 [data-testid="stHeader"] {{
