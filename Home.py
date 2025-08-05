@@ -40,7 +40,7 @@ st.markdown("""
 page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
-background-image: url("https://raw.githubusercontent.com/nczub/AhR_Streamlit/AhR_background.svg");
+background-image: url("https:/raw.githubusercontent.com/nczub/AhR_Streamlit/AhR_background.svg");
 background-size: cover;
 background-position: top;
 background-repeat: repeat;
