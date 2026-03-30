@@ -12,3 +12,4 @@ numpy
 scikit-learn
 joblib==1.4.2
 mljar-supervised==1.1.9
+python3-distutils
