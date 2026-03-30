@@ -1,4 +1,4 @@
-setuptools
+setuptools==68.0.0
 rdkit
 pandas
 seaborn
@@ -12,4 +12,3 @@ numpy
 scikit-learn
 joblib==1.4.2
 mljar-supervised==1.1.9
-python3-distutils
